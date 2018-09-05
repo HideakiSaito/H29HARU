@@ -1,5 +1,5 @@
 /**
- * Test ok
+ * Test ok github integration
  */
 public class Test {
 
