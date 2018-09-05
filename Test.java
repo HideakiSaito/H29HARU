@@ -16,7 +16,7 @@ public class Test {
     }
 
     /**
-     * uzee
+     * uzee korehatukawa
      * @param message
      */
     public static void printUzai(String message){
