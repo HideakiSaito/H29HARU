@@ -8,12 +8,12 @@ public class Test {
      * @param args
      */
     public static void main(String[] args) {
-        //とりあえずハロー
+        //toriaezu hello
         printUzai("Hello World!");
     }
 
     /**
-     * 出力するウザイぐらい
+     * uzee
      * @param message
      */
     public static void printUzai(String message){
