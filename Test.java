@@ -1,5 +1,5 @@
 /**
- * Test
+ * Test ok
  */
 public class Test {
 
