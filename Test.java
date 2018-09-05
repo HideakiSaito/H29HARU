@@ -17,7 +17,7 @@ public class Test {
      * @param message
      */
     public static void printUzai(String message){
-            for(int i=0;i<50;i++){
+            for(int i=0;i<99;i++){
                 System.out.println(i + ":" + message) ;
             }
     }
