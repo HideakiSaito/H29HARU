@@ -9,7 +9,10 @@ public class Test {
      */
     public static void main(String[] args) {
         //toriaezu hello
-        printUzai("Hello World!");
+        //printUzai("Hello World!");
+        Uzai uza = new Uzai();
+        uza.Hello();
+        uza.Bye();
     }
 
     /**
