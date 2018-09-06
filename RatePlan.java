@@ -4,6 +4,12 @@ class RatePlan{
   private final double basicCharge;
   private final TierTable pricingTiers;
 
+  /**
+   * ÉåÅ[ÉgåvâÊ
+   * @param name
+   * @param basicCharge
+   * @param pricingTiers
+   */
   RatePlan(String name,double basicCharge,TierTable pricingTiers){
     this.name = name;
     this.basicCharge = basicCharge;

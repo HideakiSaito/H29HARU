@@ -2,16 +2,16 @@
 
 public class Main{
   public static void main(String[] args) {
-    RatePlan palnA = new RatePlan("ãƒ—ãƒ©ãƒ³A",1123.30 , new TieredRateTable(0,19.62,120,26.10,300,30.12));
-    RatePlan palnB = new RatePlan("ãƒ—ãƒ©ãƒ³B",1040.10 , new TieredRateTable(0,18.17,120,24.17,300,27.77));
+    RatePlan palnA = new RatePlan("ƒvƒ‰ƒ“A",1123.30 , new TieredRateTable(0,19.62,120,26.10,300,30.12));
+    RatePlan palnB = new RatePlan("ƒvƒ‰ƒ“B",1040.10 , new TieredRateTable(0,18.17,120,24.17,300,27.77));
     double amount = 543.0;
     int d = palnA.getPrice(amount) - palnB.getPrice(amount);
     if(d<0){
-      System.out.printf("%sãŒ%då††å®‰ã„%n",palnA.getName(),-d);
+      System.out.printf("%s‚ª%d‰~ˆÀ‚¢%n",palnA.getName(),-d);
     }else if (d>0){
-      System.out.printf("%sãŒ%då††å®‰ã„%n",palnB.getName(),d);
+      System.out.printf("%s‚ª%d‰~ˆÀ‚¢%n",palnB.getName(),d);
     }else{
-      System.out.println("ä¸¡ãƒ—ãƒ©ãƒ³ã§åŒé¡");
+      System.out.println("—¼ƒvƒ‰ƒ“‚Å“¯Šz");
     }
   }
 }

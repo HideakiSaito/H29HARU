@@ -4,7 +4,7 @@ abstract class TierTable{
 
   TierTable(double... tiers){
     if (tiers.length % 2 == 1){
-      throw new IllegalArgumentException("ä¸æ­£ãªé•·ã•ï¼š" + tiers.length);
+      throw new IllegalArgumentException("•s³‚È’·‚³F" + tiers.length);
     }
     double[][] a = new double[tiers.length / 2][];
     for(int i = 0;i<tiers.length;i+=2){
