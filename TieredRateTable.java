@@ -1,7 +1,7 @@
 import javax.lang.model.util.ElementScanner6;
 class TieredRateTable extends TierTable{
   TieredRateTable(double... amount){
-    super(tiers);
+    super(amount);
   }
 
   double map(double amount){

@@ -3,7 +3,7 @@ abstract class TierTable{
   final double[][] pairs;
 
   TierTable(double... tiers){
-    if (tier.length % 2 == 1){
+    if (tiers.length % 2 == 1){
       throw new IllegalArgumentException("不正な長さ：" + tiers.length);
     }
     double[][] a = new double[tiers.length / 2][];
